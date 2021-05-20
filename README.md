@@ -19,6 +19,9 @@ Guests will also leave throughout the course of the party. Note that when a gues
 - All guests have unique names
 - All reservations are valid even if guests leave the party in the middle
 
+## Models
+
+![Conceptual, Context and Data models](models.jpg)
 ## API
 
 ### Add a guest to the guestlist
