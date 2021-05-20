@@ -1,0 +1,24 @@
+{{ define "Guestlist" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+    <h2> Guestlist </h2>
+    <table border="1">
+      <thead>
+      <tr>
+        <td>Name</td>
+        <td>Accompanying guests</td>
+        <td>Table</td>
+      </tr>
+       </thead>
+       <tbody>
+    {{ range . }}
+      <tr>
+        <td>{{ .Name }}</td>
+        <td> {{ .AccompaniyingGuests }} </td>
+        <td>{{ .Table }} </td> 
+      </tr>
+    {{ end }}
+       </tbody>
+    </table>
+  {{ template "Footer" }}
+{{ end }}

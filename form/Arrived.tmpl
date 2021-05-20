@@ -1,0 +1,24 @@
+{{ define "Arrived" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+    <h2> Arrived guest list </h2>
+    <table border="1">
+      <thead>
+      <tr>
+        <td>Name</td>
+        <td>Accompanying guests</td>
+        <td>Time arrived</td>
+      </tr>
+       </thead>
+       <tbody>
+    {{ range . }}
+      <tr>
+        <td>{{ .Name }}</td>
+        <td> {{ .AccompaniyingGuests }} </td>
+        <td>{{ .TimeArrived }} </td> 
+      </tr>
+    {{ end }}
+       </tbody>
+    </table>
+  {{ template "Footer" }}
+{{ end }}
