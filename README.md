@@ -13,8 +13,8 @@ Guests will also leave throughout the course of the party. Note that when a gues
 
 ## Assumptions
 
-- ALl reservations, i.e. adding guests to the guest list,  happen before guests arrive.
-- Get arrived guests will return only those guests who are arrived and present at the party
+- All reservations, i.e. adding guests to the guest list,  happen before guests arrive.
+- *Get arrived guests* will only return those guests who are arrived and present at the party
 - All reservations are done subsequently, i.e. no concurrent requests to the *tables* table, which would create data race
 - All guests have unique names
 - All reservations are valid even if guests leave the party in the middle
