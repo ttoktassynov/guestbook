@@ -8,7 +8,7 @@ Guests will also leave throughout the course of the party. Note that when a gues
 ## Technology used
 
 - Golang 1.16.4
-- Mysql 8.0.25
+- Mysql 8.0.25 (see *guestbookdb.sql* dump)
 - Postman (to test *PUT* and *DELETE* request methods)
 
 ## Assumptions
